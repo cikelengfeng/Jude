@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420E9BC31E5720C300D8CC51 /* Jude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420E9BB91E5720C300D8CC51 /* Jude.framework */; };
+		420E9BC81E5720C300D8CC51 /* JudeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E9BC71E5720C300D8CC51 /* JudeTests.swift */; };
+		420E9BCA1E5720C300D8CC51 /* Jude.h in Headers */ = {isa = PBXBuildFile; fileRef = 420E9BBC1E5720C300D8CC51 /* Jude.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		420E9BC41E5720C300D8CC51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 420E9BB01E5720C200D8CC51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420E9BB81E5720C300D8CC51;
+			remoteInfo = Jude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		420E9BB91E5720C300D8CC51 /* Jude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		420E9BBC1E5720C300D8CC51 /* Jude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jude.h; sourceTree = "<group>"; };
+		420E9BBD1E5720C300D8CC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420E9BC21E5720C300D8CC51 /* JudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		420E9BC71E5720C300D8CC51 /* JudeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudeTests.swift; sourceTree = "<group>"; };
+		420E9BC91E5720C300D8CC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		420E9BB51E5720C300D8CC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420E9BBF1E5720C300D8CC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420E9BC31E5720C300D8CC51 /* Jude.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420E9BAF1E5720C200D8CC51 = {
+			isa = PBXGroup;
+			children = (
+				420E9BBB1E5720C300D8CC51 /* Jude */,
+				420E9BC61E5720C300D8CC51 /* JudeTests */,
+				420E9BBA1E5720C300D8CC51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		420E9BBA1E5720C300D8CC51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				420E9BB91E5720C300D8CC51 /* Jude.framework */,
+				420E9BC21E5720C300D8CC51 /* JudeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420E9BBB1E5720C300D8CC51 /* Jude */ = {
+			isa = PBXGroup;
+			children = (
+				420E9BBC1E5720C300D8CC51 /* Jude.h */,
+				420E9BBD1E5720C300D8CC51 /* Info.plist */,
+			);
+			path = Jude;
+			sourceTree = "<group>";
+		};
+		420E9BC61E5720C300D8CC51 /* JudeTests */ = {
+			isa = PBXGroup;
+			children = (
+				420E9BC71E5720C300D8CC51 /* JudeTests.swift */,
+				420E9BC91E5720C300D8CC51 /* Info.plist */,
+			);
+			path = JudeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		420E9BB61E5720C300D8CC51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420E9BCA1E5720C300D8CC51 /* Jude.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		420E9BB81E5720C300D8CC51 /* Jude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420E9BCD1E5720C300D8CC51 /* Build configuration list for PBXNativeTarget "Jude" */;
+			buildPhases = (
+				420E9BB41E5720C300D8CC51 /* Sources */,
+				420E9BB51E5720C300D8CC51 /* Frameworks */,
+				420E9BB61E5720C300D8CC51 /* Headers */,
+				420E9BB71E5720C300D8CC51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jude;
+			productName = Jude;
+			productReference = 420E9BB91E5720C300D8CC51 /* Jude.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		420E9BC11E5720C300D8CC51 /* JudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420E9BD01E5720C300D8CC51 /* Build configuration list for PBXNativeTarget "JudeTests" */;
+			buildPhases = (
+				420E9BBE1E5720C300D8CC51 /* Sources */,
+				420E9BBF1E5720C300D8CC51 /* Frameworks */,
+				420E9BC01E5720C300D8CC51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				420E9BC51E5720C300D8CC51 /* PBXTargetDependency */,
+			);
+			name = JudeTests;
+			productName = JudeTests;
+			productReference = 420E9BC21E5720C300D8CC51 /* JudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		420E9BB01E5720C200D8CC51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "dx lab";
+				TargetAttributes = {
+					420E9BB81E5720C300D8CC51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PBPY62KKV5;
+						ProvisioningStyle = Automatic;
+					};
+					420E9BC11E5720C300D8CC51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PBPY62KKV5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 420E9BB31E5720C300D8CC51 /* Build configuration list for PBXProject "Jude" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 420E9BAF1E5720C200D8CC51;
+			productRefGroup = 420E9BBA1E5720C300D8CC51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				420E9BB81E5720C300D8CC51 /* Jude */,
+				420E9BC11E5720C300D8CC51 /* JudeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		420E9BB71E5720C300D8CC51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420E9BC01E5720C300D8CC51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420E9BB41E5720C300D8CC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420E9BBE1E5720C300D8CC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420E9BC81E5720C300D8CC51 /* JudeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		420E9BC51E5720C300D8CC51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 420E9BB81E5720C300D8CC51 /* Jude */;
+			targetProxy = 420E9BC41E5720C300D8CC51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		420E9BCB1E5720C300D8CC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		420E9BCC1E5720C300D8CC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		420E9BCE1E5720C300D8CC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PBPY62KKV5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Jude/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.deanxu.Jude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		420E9BCF1E5720C300D8CC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PBPY62KKV5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Jude/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.deanxu.Jude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		420E9BD11E5720C300D8CC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PBPY62KKV5;
+				INFOPLIST_FILE = JudeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.deanxu.JudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		420E9BD21E5720C300D8CC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PBPY62KKV5;
+				INFOPLIST_FILE = JudeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.deanxu.JudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420E9BB31E5720C300D8CC51 /* Build configuration list for PBXProject "Jude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420E9BCB1E5720C300D8CC51 /* Debug */,
+				420E9BCC1E5720C300D8CC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420E9BCD1E5720C300D8CC51 /* Build configuration list for PBXNativeTarget "Jude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420E9BCE1E5720C300D8CC51 /* Debug */,
+				420E9BCF1E5720C300D8CC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		420E9BD01E5720C300D8CC51 /* Build configuration list for PBXNativeTarget "JudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420E9BD11E5720C300D8CC51 /* Debug */,
+				420E9BD21E5720C300D8CC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 420E9BB01E5720C200D8CC51 /* Project object */;
+}
