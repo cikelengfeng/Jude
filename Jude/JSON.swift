@@ -146,10 +146,12 @@ public class JSONObjectBuilder: JSONBuilderContext {
     }
     
     public func beginDict() -> JSONDictBuilder<JSONObjectBuilder> {
+        jsonObject = nil
         return JSONDictBuilder(context: self)
     }
     
     public func beginArray() -> JSONArrayBuilder<JSONObjectBuilder> {
+        jsonObject = nil
         return JSONArrayBuilder(context: self)
     }
     
