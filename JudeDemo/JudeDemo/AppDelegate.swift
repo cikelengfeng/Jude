@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Jude
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,10 +16,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        // Override point for customization after application launch.
-        self.window!.backgroundColor = UIColor.whiteColor()
-        self.window!.makeKeyAndVisible()
+//        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+//        // Override point for customization after application launch.
+//        self.window!.backgroundColor = UIColor.whiteColor()
+//        self.window!.makeKeyAndVisible()
+        
+        let test = JSONObject(raw: "\"1\"", type: .string)
+        let jsonBuilder = JSONObjectBuilder()
+            .beginDict()
+            .put(key: "foo", value: test)
+            .put(key: "bar", value: test)
+            .beginDict(key: "foz")
+                .put(key: "inner", value: test)
+                .end()
+            .beginArray(key: "baz")
+                .append(value: test)
+                .append(value: [test, test])
+                .end()
+            .end()
+        let json = jsonBuilder.jsonObject!.raw
+        debugPrint("json : ", json)
+        
+        
+        let charStream = ANTLRInputStream(json)
+        let lexer = JSONLexer(charStream)
+        let tokenStream = CommonTokenStream(lexer)
+        let parser = try! JSONParser(tokenStream)
+        do {
+            let jv = try parser.object()
+            debugPrint("json value: ", jv.children)
+        } catch {
+            
+        }
+
+        
         return true
     }
 

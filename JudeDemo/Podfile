@@ -6,6 +6,7 @@ target 'JudeDemo' do
   use_frameworks!
 
   # Pods for JudeDemo
+  pod 'Jude', :path => ‘../‘
 
   target 'JudeDemoTests' do
     inherit! :search_paths
